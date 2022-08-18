@@ -5,18 +5,30 @@ COMMON
 ***********************/
 
 body {
-    font-family: 'monospace', sans-serif;
+  font-family: "monospace", sans-serif;
 }
 
 .font-primary {
-    color: #f4c2c2;
+  color: #f4c2c2;
 }
 
 .title-icon {
-    font-size: 20px;
-    font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
 }
 
+p {
+  font-size: 14px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+a.font-black {
+  color: #000 !important;
+}
 /*************************
 
 ABOUT
@@ -24,46 +36,74 @@ ABOUT
 **************************/
 
 #about {
-    margin: 60px auto;
-    max-width: 400px;
-    text-align: center;
+  margin: 60px auto;
+  max-width: 400px;
+  text-align: center;
 }
 
 #about img {
-    border-radius: 50%;
-    width: 120px;
-    margin-bottom: 10px;
+  border-radius: 50%;
+  width: 130px;
+  height: 129px;
+  margin-bottom: 10px;
+  object-fit: cover;
 }
 
 #about .name {
-    font-size: 19px;
-    color: #986868;
+  font-size: 19px;
+  color: #986868;
 }
 
 #about .vocation {
-    font-size: 17px;
-    color: #000;
-    margin-bottom: 10px;
+  font-size: 17px;
+  color: #000;
+  margin-bottom: 10px;
 }
 
 #about .skills {
-    font-size: 14px;
-    color: #f4c2c2;
-    margin-bottom: 10px;
+  font-size: 14px;
+  color: #f4c2c2;
+  margin-bottom: 10px;
 }
 
 #about .email {
-    margin-top: 14px;
-    font-size: 14px bold;
-    color: #986868
-
+  margin-top: 14px;
+  font-size: 14px bold;
+  color: #986868;
 }
 
 #about .icons {
-    margin-top: 20px;
-    font-size: 30px;
+  margin-top: 20px;
+  font-size: 30px;
 }
 
-#about  .icons a {
-    color: #f4c2c2;
+#about .icons a {
+  color: #f4c2c2;
+}
+
+/*************************************
+
+PROJECT
+
+*************************************/
+
+#project {
+  margin: 60px auto;
+  width: 100%;
+}
+
+#project h2 {
+  text-align: center;
+}
+
+#project .card img {
+  width: 100%;
+}
+#projects {
+  margin: 60px auto;
+  width: 80%;
+}
+
+#project .card-title {
+  font-weight: bold;
 }
